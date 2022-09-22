@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menuLateral{
+    border: solid 5px rgb(19, 248, 19);
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    right: 0;
+    background-color: cornflowerblue;
+    z-index:2;
+    border-radius: 30px 0 0 30px;
+    box-shadow: -1px -2px 15px 2px rgba(0,0,0,0.35);
+    scroll-behavior:smooth;
+}
+
+.menuLateral ul li{
+    list-style:none;
+    margin: 50px 20px;
+}
+
+.menuLateral ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.linea-1{
+    width: 15px;
+    height: 1px;
+    background-color:darkblue;
+    display: inline-block;
+}
+
+.linea-2{
+    width: 80px;
+    height: 1px;
+    background-color: darkblue;
+    display: inline-block;
+}
+
+.linea-3{
+    width: 60px;
+    height: 1px;
+    background-color: darkblue;
+    display: inline-block;
+}
+.linea{
+    line-height: 8px;
+}
+
+.header{
+    border: solid 4px red;
+    height: 100vh;
+    background-image: url(./img/foto-fondo.gif);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F9C0C0;
+   
+}
+
+
+
+h1{
+    font-size: 60px;
+    text-shadow: 2px 2px 19px #CE5937;
+
+    font-family: 'Bungee Spice', cursive;
+}
+
+.contenedor{
+   
+    margin-top: 30px;
+    width: 400px;
+    margin-left: 60px;
+    padding: 60px;
+ 
+}   
+
+
+
+
+.parrafo_intro{
+    font-size: 20px;
+    line-height: 25px;
+    color:black;
+    width: 300px;
+}
+
+.texto_cabecera{
+   
+    max-width: 100%;
+}
+
+.boton_cabecera{
+    padding: 10px 70px;
+    outline: none;
+    background: cornflowerblue;
+    border: solid 2px darkblue;
+    border-radius: 20px;
+    color: white;
+    
+}
+.boton_cabecera:hover{
+    padding: 10px 60px;
+    outline: none;
+    background: white;
+    border: solid 2px darkblue;
+    color: cornflowerblue;
+    
+}
+
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+}   
+
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) { 
+    .parrafo_intro{
+        font-size: 30px;
+        line-height: 25px;
+        color:black;
+        width: 80vw;
+    }
+}
+
+.angry-animate{
+    -webkit-animation:change-color 4s ease 0s infinite normal;
+    -moz-animation:change-color 4s ease 0s infinite normal;
+    -ms-animation:change-color 4s ease 0s infinite normal;
+    animation:change-color 4s ease 0s infinite normal;
+    
+    }
+.proyecto{
+  display: grid;
+}
+.codigoMenu{
+    height: 400px;
+    place-self: center;
+}
